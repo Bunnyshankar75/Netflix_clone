@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/cb17c41d-6a67-4472-8b91-cca977e65276/web/IN-en-20250505-TRIFECTA-perspective_03ae1a85-5dcf-4d20-a8a6-1e61f7ef73cb_large.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 85vh;
+    position: relative;
+}
+
+.main_box {
+    background-color: black;
+    height: 85vh;
+    width: 100vw;
+    position: absolute;
+    top: 0%;
+    opacity: 0.6;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+}
+
+nav {
+    height: 90px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+}
+
+.image {
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+.button1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: red;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border: transparent;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.hero {
+    color: white;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+
+
+.first {
+    height: 70px;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.second {
+    height: 70px;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.third {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    height: 25px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.fourth {
+    margin-top: 10px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.inputs {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.input1 {
+    height: 50px;
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.65);
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.input1:focus {
+    border: 3px solid white;
+}
+
+.input2 {
+    height: 55px;
+    width: 210px;
+    margin-left: 8px;
+    background-color: red;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border: 0 solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(67, 66, 66);
+}
+
+
+/* styling for section-1 */
+.section-1 {
+    height: 500px;
+    width: 78vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sec_itm1 {
+    color: white;
+    position: relative;
+    margin-right: 100px;
+}
+
+.first_image {
+    height: 300px;
+    border: 8px solid #80808052;
+    cursor: pointer;
+}
+
+.sec_itm1>div:first-child {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.second_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.third_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.section-2 {
+    height: 500px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.sec-2_text {
+    color: white;
+    margin-left: 100px;
+}
+
+.second_image {
+    height: 300px;
+    border: 8px solid #80808052;
+    cursor: pointer;
+
+}
+
+.sec-2_first_text {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-2_second_text {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -24px;
+}
+
+.sec-2_third_text {
+    margin-top: -13px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sec-2_fourth_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.section-3 {
+    height: 500px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.sec-3_text {
+    color: white;
+    margin-right: 80px;
+}
+
+.third_image {
+    height: 300px;
+    border: 8px solid #80808052;
+    cursor: pointer;
+
+}
+
+.sec-3_first_text {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-3_second_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sec-3_third_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-4 h3 {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.faq-1 {
+    height: 80px;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    width: 80vw;
+    margin: 8px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-1:hover {
+    background-color: #414141;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+}
+
+.faq-1 span {
+    font-family: 'Martel Sans', sans-serif;
+    margin-left: 20px;
+}
+
+.faq-1 svg {
+    margin-right: 25px;
+}
+
+.section-4_part {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-sec-4 {
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 500;
+}
+
+.inputs-section-4 {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.input1-sec-4 {
+    height: 50px;
+    width: 560px;
+    background-color: rgba(0, 0, 0, 0.65);
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.input1-sec-4:focus {
+    border: 3px solid white;
+}
+
+.input2-sec-4 {
+    height: 55px;
+    width: 210px;
+    margin-left: 8px;
+    background-color: red;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border: 0 solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.seperation {
+    height: 7px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+.footer_item-1 {
+    color: rgba(255, 255, 255, 0.7);
+    width: 80vw;
+    margin: 10px auto auto 148px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer_anchors {
+    width: 60vw;
+    margin: 35px auto auto 148px;
+    font-family: 'Martel Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_anchors a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+li {
+    margin-top: 7px;
+}
+
+.footer_button {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    margin: 40px auto auto 146px;
+}
+
+.para {
+    font-family: 'Martel Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    width: 80vw;
+    margin: 40px auto auto 146px;
+}
+
+@media screen and (max-width: 2000px) {
+    .main {
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/cb17c41d-6a67-4472-8b91-cca977e65276/web/IN-en-20250505-TRIFECTA-perspective_03ae1a85-5dcf-4d20-a8a6-1e61f7ef73cb_large.jpg);
+        background-position: center center;
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .section-1 {
+        flex-wrap: wrap;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .inputs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .input2 {
+        margin-top: 15px;
+    }
+
+    .section-4 h3 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .input1-sec-4 {
+        width: 455px;
+    }
+
+    .input2-sec-4 {
+        width: 180px;
+    }
+
+
+    footer {
+        max-width: 90vw;
+        margin: auto;
+    }
+
+    .footer_anchors {
+        width: 90vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        position: relative;
+    }
+
+
+    .footer_anchors a {
+        font-size: 14px;
+        color: white;
+    }
+
+    .footer_item-1 {
+        width: 90vw;
+        position: relative;
+        margin: auto;
+    }
+
+    .footer_button {
+        margin: 15px auto auto 0px;
+    }
+
+    .para {
+        width: 90vw;
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .input1-sec-4 {
+        width: 350px;
+    }
+}
